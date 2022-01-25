@@ -1,6 +1,7 @@
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 # SPDX-License-Identifier: MIT-0
 
+
 require_relative 'app'
 require_relative 'errors'
 require_relative 'shapes'
