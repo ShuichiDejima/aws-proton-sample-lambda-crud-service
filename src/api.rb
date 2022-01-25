@@ -9,6 +9,10 @@ require 'aws-xray-sdk/lambda'
 
 def list_task(event:,context:)
   begin
+     return {
+        statusCode: 200,
+        body: "Hello"
+    }
     input = ListTasksInput.new(event)
     unless input.valid?
       error = input.error
