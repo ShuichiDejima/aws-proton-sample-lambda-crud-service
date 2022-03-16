@@ -79,7 +79,7 @@ def get_task(event:,context:)
   begin
     return {
         statusCode: 200,
-        body: "Hello TSUBASA - This is [get]"
+        body: "Hello TSUBASA --> This is [GET]"
     }
     input = GetTaskInput.new(event)
     unless input.valid?
